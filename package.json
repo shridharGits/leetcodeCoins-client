@@ -7,7 +7,7 @@
   },
   "name": "leetcodeproject",
   "version": "1.0.0",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
     "start": "npx parcel serve --port 3000 index.html",
     "build": "parcel build index.html"
