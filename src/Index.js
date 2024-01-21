@@ -24,7 +24,7 @@ const Index = () => {
       </div>
       <div className=''>
         <h1 className='text-center text-2xl md:text-7xl'>LeetCode Tshirt Coming Soon!</h1>
-        <div className='text-xl md:text-7xl'><span className='text-green-500 '>{totalCoins}</span> Coins and <span className='text-green-500'>{Math.round(totalCoins/11)}</span>  Days Left</div>
+        <div className='text-xl md:text-7xl'><span className='text-green-500 '>{6000-totalCoins}</span> Coins and <span className='text-green-500'>{Math.round(totalCoins/11)}</span>  Days Left</div>
       </div>
     </div>
   )
