@@ -5,7 +5,7 @@ const Index = () => {
   const [totalCoins, setTotalCoins] = useState(0);
   const [totalDays, setTotalDays] = useState(0);
   const getApiResponse = async ()=>{
-    const res = await fetch('https://leetcode-coins-server.onrender.com/');
+    const res = await fetch('https://leetcode-coins-server.onrender.com/api/users/leetcode-coins');
       const data = await res.json();
       console.log(data.points);
       return data;
